@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "platform": "TIA_Portal",
+      "name": "FactoryIO_Template_S7-1200_V15",
+      "file": "TIA_Portal/projects/FactoryIO_Template_S7-1200_V15/FactoryIO_Template_S7-1200_V15.zip",
+      "entry_after_extract": "FactoryIO_Template_S7-1200_V15/FactoryIO_Template_S7-1200_V15.ap15",
+      "contained_files": 22,
+      "sha256": "076eaed3cfa48cf0404a2580e67c90856be8cba3fc1c2e15af83d5a86fdf6d1c"
+    },
+    {
+      "platform": "TIA_Portal",
+      "name": "FactoryIO_Template_S7-1200_V15_V16",
+      "file": "TIA_Portal/projects/FactoryIO_Template_S7-1200_V15_V16/FactoryIO_Template_S7-1200_V15_V16.zip",
+      "entry_after_extract": "FactoryIO_Template_S7-1200_V15_V16/FactoryIO_Template_S7-1200_V15_V16.ap16",
+      "contained_files": 51,
+      "sha256": "3fabf581367daae60b15a8f7403dc61c55b9c050c2a93c406396381c1aff4644"
+    },
+    {
+      "platform": "TIA_Portal",
+      "name": "FactoryIO_Template_S7-1200_V15_V16_1",
+      "file": "TIA_Portal/projects/FactoryIO_Template_S7-1200_V15_V16_1/FactoryIO_Template_S7-1200_V15_V16_1.zip",
+      "entry_after_extract": "FactoryIO_Template_S7-1200_V15_V16_1/FactoryIO_Template_S7-1200_V15_V16_1.ap16",
+      "contained_files": 53,
+      "sha256": "6bc31c45094ab5c5ebf4ece7e5e3d3db8588c2be8cb98037ade12d65e0bfda5e"
+    },
+    {
+      "platform": "CODESYS",
+      "name": "liang",
+      "file": "CODESYS/projects/liang/liang.project",
+      "sha256": "cf99cf0ed74ab121d9c3ebb5c82de92dbf472b0b0f4e0018652680c7c3415c52"
+    }
+  ],
+  "backups": [
+    {
+      "platform": "TIA_Portal",
+      "file": "TIA_Portal/backups/FactoryIO_Template_S7-1200_V15_V16.backup/2026-09-29.091015.204/2026-09-29.091015.204.zip",
+      "sha256": "0690a8ad4254f8d1a9b1c799408fe76b92c7f77c3e76b581130c6bdb852cbc43"
+    },
+    {
+      "platform": "TIA_Portal",
+      "file": "TIA_Portal/backups/FactoryIO_Template_S7-1200_V15_V16.backup/2026-09-29.091017.858/2026-09-29.091017.858.zip",
+      "sha256": "4efa74e834a5c176dd1f53df0a6edc9434617f15a356427f6e844018a0f2cfb5"
+    },
+    {
+      "platform": "TIA_Portal",
+      "file": "TIA_Portal/backups/FactoryIO_Template_S7-1200_V15_V16_1.backup/2026-10-02.033615.783/2026-10-02.033615.783.zip",
+      "sha256": "a7f80dd89c2578fa00ade627ebc7eb20b17200bc09e7d333626ee35b5baeb5ab"
+    },
+    {
+      "platform": "TIA_Portal",
+      "file": "TIA_Portal/backups/FactoryIO_Template_S7-1200_V15_V16_1.backup/2026-10-02.033618.371/2026-10-02.033618.371.zip",
+      "sha256": "5a14929eb9bd1b1fc31905a72f2eb5620cade1da636e398b0ec13069789f86ed"
+    }
+  ]
+}

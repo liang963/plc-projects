@@ -1,0 +1,11 @@
+# 本地 IDE 设置和生成文件
+*.opt
+*_project.precompilecache
+*.compileinfo
+*.bootinfo
+*.bootinfo_guids
+*.~u
+*.autosave
+*.tmp
+*.log
+__pycache__/
