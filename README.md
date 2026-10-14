@@ -1,37 +1,28 @@
 # PLC 工程练习
 
-这个仓库保存 Factory I/O 练习用的 PLC 工程。博图项目放在 `TIA_Portal/`，CODESYS 项目放在 `CODESYS/`。
+本仓库按平台整理 PLC 练习：博图工程放在 `TIA_Portal/`，CODESYS 工程放在 `CODESYS/`。表里的项目名按程序内容命名；ZIP 解压后的博图工程仍保留原来的项目名。
 
-## 项目列表
+## TIA Portal
 
-| 平台 | 项目 | 下载入口 |
-| --- | --- | --- |
-| TIA Portal V15 | FactoryIO_Template_S7-1200_V15 | [完整工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15/FactoryIO_Template_S7-1200_V15.zip) |
-| TIA Portal V16 | FactoryIO_Template_S7-1200_V15_V16 | [完整工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15_V16/FactoryIO_Template_S7-1200_V15_V16.zip) |
-| TIA Portal V16 | FactoryIO_Template_S7-1200_V15_V16_1 | [完整工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15_V16_1/FactoryIO_Template_S7-1200_V15_V16_1.zip) |
-| TIA Portal V16 | 生成随机数 SCL | [完整工程 ZIP](<TIA_Portal/projects/生成随机数SCl/生成随机数SCl.zip>) |
-| CODESYS | liang | [CODESYS 工程](<CODESYS/CODESYS X Z 双轴取放/liang.project>) |
+| 项目 | 版本 | 程序内容 | 下载 |
+| --- | --- | --- | --- |
+| Factory I/O 起始工程 | V15 | 主程序块 `OB_Main2` | [工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15/FactoryIO_Template_S7-1200_V15.zip) |
+| I/O 映射、自动与复位 | V16 | `FC_IO_Map`、`FB_Auto`、`FB_Reset` | [工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15_V16/FactoryIO_Template_S7-1200_V15_V16.zip) |
+| 堆垛机随机存取 | V16 | `FB_WarreHouse`、`FB_AutoCtrl`、`FB_Inbound`、`Fb_Outbound`，含随机库位相关逻辑 | [工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15_V16_1/FactoryIO_Template_S7-1200_V15_V16_1.zip) |
+| SCL 随机数生成练习 | V16 | `随机数` 程序块和 `随机数_DB` 数据块 | [工程 ZIP](<TIA_Portal/projects/生成随机数SCl/生成随机数SCl.zip>) |
 
-## 如何打开
+堆垛机工程包含仓储、入库和出库相关程序；独立 SCL 工程用于单独查看随机数练习。两者分别保留，避免把算法练习和整机流程混在一起。
 
-### TIA Portal
+## CODESYS
 
-下载对应的 ZIP，解压后打开里面的 `.ap15` 或 `.ap16` 文件。请保留解压出来的整个文件夹，工程还需要同目录中的 `System` 等配套文件。
+| 项目 | 下载 |
+| --- | --- |
+| X-Z 双轴取放 | [liang.project](<CODESYS/CODESYS X Z 双轴取放/liang.project>) |
 
-这些 ZIP 是完整工程文件夹的压缩副本，不是 TIA Portal 自带的 `.zap` 归档。
+## 打开工程
 
-### CODESYS
+博图工程 ZIP 解压后，请保留整个文件夹，并打开里面原名的 `.ap15` 或 `.ap16` 文件；同目录中的 `System` 等配套文件也需要保留。这里保存的是工程文件夹 ZIP，不是 TIA Portal 的 `.zap` 归档。
 
-下载 `liang.project`，然后在 CODESYS 中打开。个人 IDE 设置、缓存和仿真生成信息由本机软件生成，仓库不保存这些文件。
+CODESYS 工程下载 `liang.project` 后即可在 CODESYS 中打开。个人 IDE 设置、缓存和仿真生成信息不放入仓库。
 
-## 文件夹
-
-- [`TIA_Portal/projects/`](TIA_Portal/projects/)：四份博图工程。
-- [`TIA_Portal/backups/`](TIA_Portal/backups/)：按项目和时间归档的博图备份。
-- [`CODESYS/`](CODESYS/)：CODESYS 工程。
-- [`catalog.json`](catalog.json)：已归档文件的清单和校验信息。
-- [`GIT_HOOK.md`](GIT_HOOK.md)：提交前钩子的示例和启用步骤。
-
-## 更新工程
-
-在对应软件里修改并保存工程，然后更新本仓库对应项目的文件。`.gitignore` 会排除 IDE 设置、缓存和临时文件。
+详细目录和历史备份见 [`TIA_Portal/README.md`](TIA_Portal/README.md)；归档文件校验信息见 [`catalog.json`](catalog.json)。
