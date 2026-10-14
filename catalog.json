@@ -28,7 +28,7 @@
       "platform": "TIA_Portal",
       "name": "生成随机数SCl",
       "file": "TIA_Portal/projects/生成随机数SCl/生成随机数SCl.zip",
-      "entry_after_extract": "生成随机数SCl.ap16",
+      "entry_after_extract": "生成随机数SCl/生成随机数SCl.ap16",
       "contained_files": 13,
       "sha256": "8ba2bce8b937b177f758c1db1ba113fab61651b489ed2cd3260ffb661ed17a1a"
     },
