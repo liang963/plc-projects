@@ -7,6 +7,7 @@
 | 博图 V15 | FactoryIO_Template_S7-1200_V15 | [完整工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15/FactoryIO_Template_S7-1200_V15.zip) |
 | 博图 V16 | FactoryIO_Template_S7-1200_V15_V16 | [完整工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15_V16/FactoryIO_Template_S7-1200_V15_V16.zip) |
 | 博图 V16 | FactoryIO_Template_S7-1200_V15_V16_1 | [完整工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15_V16_1/FactoryIO_Template_S7-1200_V15_V16_1.zip) |
+| 博图 V16 | 生成随机数SCl | [完整工程 ZIP](TIA_Portal/projects/生成随机数SCl/生成随机数SCl.zip) |
 | CODESYS | liang | [liang.project](CODESYS/projects/liang/liang.project) |
 
 博图历史备份另放在 [TIA_Portal/backups](TIA_Portal/backups/)。
