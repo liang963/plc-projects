@@ -1,12 +1,12 @@
 # PLC 工程练习
 
-本仓库按平台整理 PLC 练习：博图工程放在 `TIA_Portal/`，CODESYS 工程放在 `CODESYS/`。表里的项目名按程序内容命名；ZIP 解压后的博图工程仍保留原来的项目名。
+本仓库按平台整理 PLC 工程：博图工程放在 `TIA_Portal/`，CODESYS 工程放在 `CODESYS/`。表里的展示名说明工程用途；ZIP 解压后的博图工程仍保留原来的项目名。
 
 ## TIA Portal
 
 | 项目 | 版本 | 程序内容 | 下载 |
 | --- | --- | --- | --- |
-| Factory I/O 起始工程 | V15 | 主程序块 `OB_Main2` | [工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15/FactoryIO_Template_S7-1200_V15.zip) |
+| Factory I/O–PLCSIM 通信模板（S7-1200） | V15 | Factory I/O 与 S7-PLCSIM 的通信模板；OB1 中的 Network 1 需保留，之后再编写控制程序。[官方说明](https://docs.factoryio.com/tutorials/siemens/setting-up-s7-plcsim-v13/) | [工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15/FactoryIO_Template_S7-1200_V15.zip) |
 | I/O 映射、自动与复位 | V16 | `FC_IO_Map`、`FB_Auto`、`FB_Reset` | [工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15_V16/FactoryIO_Template_S7-1200_V15_V16.zip) |
 | 堆垛机随机存取 | V16 | `FB_WarreHouse`、`FB_AutoCtrl`、`FB_Inbound`、`Fb_Outbound`，含随机库位相关逻辑 | [工程 ZIP](TIA_Portal/projects/FactoryIO_Template_S7-1200_V15_V16_1/FactoryIO_Template_S7-1200_V15_V16_1.zip) |
 | SCL 随机数生成练习 | V16 | `随机数` 程序块和 `随机数_DB` 数据块 | [工程 ZIP](<TIA_Portal/projects/生成随机数SCl/生成随机数SCl.zip>) |
