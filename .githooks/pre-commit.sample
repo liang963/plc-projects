@@ -1,0 +1,20 @@
+#!/bin/sh
+set -eu
+
+blocked_files=$(
+  git diff --cached --name-only |
+  while IFS= read -r path; do
+    case "$path" in
+      *.opt|*_project.precompilecache|*.compileinfo|*.bootinfo|*.bootinfo_guids|*.~u|*.autosave|*.tmp|*.log)
+        printf '  %s\n' "$path"
+        ;;
+    esac
+  done
+)
+
+if [ -n "$blocked_files" ]; then
+  printf '暂存区包含 IDE 缓存或临时文件，已取消提交：\n%s\n' "$blocked_files" >&2
+  exit 1
+fi
+
+exit 0
