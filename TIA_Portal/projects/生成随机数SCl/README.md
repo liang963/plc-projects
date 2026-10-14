@@ -1,8 +1,5 @@
-# 生成随机数SCl
+# 生成随机数 SCL
 
-TIA Portal V16 project snapshot.
+这是一个 TIA Portal V16 工程的完整 ZIP 压缩副本。
 
-- Project entry after extraction: `生成随机数SCl/生成随机数SCl.ap16`
-- Archive: [`生成随机数SCl.zip`](生成随机数SCl.zip)
-- The archive includes the project and supporting files; the IDE search-index cache is excluded.
-- The project was not compiled or simulation-verified in TIA Portal.
+下载并解压 [`生成随机数SCl.zip`](生成随机数SCl.zip)，然后打开解压目录里的 `生成随机数SCl.ap16`。请保留 ZIP 中的配套文件。
